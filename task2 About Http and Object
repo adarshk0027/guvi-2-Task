@@ -1,0 +1,61 @@
+1)
+Diffrense Between HTTP1.1 VS HTTP2
+
+The Hypertext Transfer Protocol, or HTTP, is an application protocol That
+was developed in 1989.HTTP2.0 is the latest.It comes in 2015.
+which offered several methods to decrease latency, especially when dealing with mobile platforms 
+and server-intensive graphics and videos.Http is a client server based protocol.
+It is worked By request passiing to the server and Response get by the server.
+
+HTTP/1.1
+Developed by Timothy Berners-Lee in 1989 as a communication standard for the 
+World Wide Web, HTTP is a top-level application protocol that exchanges 
+information between a client computer and a local or remote web server. 
+In this process, a client sends a text-based request to a server by calling a 
+method like GET or POST. In response, the server sends a resource like an 
+HTML page back to the client.
+web server returns an HTML page to the requesting client, in addition 
+to any images, stylesheets, or other resources called for in the HTML. 
+Note that not all of the resources are returned to the client in the first
+call for data.
+
+
+HTTP/2
+
+HTTP/2 began as the SPDY protocol, developed primarily at Google with the
+ intention of reducing web page load latency by using techniques such as 
+compression, multiplexing, and prioritization.HTTP/2 will make our applications 
+faster, simpler, and more robust .
+, HTTP/2 modifies how the data is formatted (framed) and transported 
+between the client and server, both of which manage the entire process, 
+and hides all the complexity from our applications within the new framing 
+layer.
+
+
+-------------------------------------------------------------
+
+2)
+Object and Its Internal Representation
+
+An object is a collection of properties, 
+and a property is an association between a name (or key) and a value. 
+A property’s value can be a function, in which case the property is known 
+as a method.
+
+We can access the properties of an object with a simple dot-notation:
+*)objectName.propertyName
+
+Like all JavaScript variables, both the object name (which could be a normal variable) and property name are case sensitive. You can define a property by assigning it a value. For example, let’s create an object named myCar and give it properties named make, model, and year as follows:
+var myCar = new Object();
+myCar.make = ‘Ford’;
+myCar.model = ‘Mustang’;
+myCar.year = 1969;
+
+
+The above example could also be written using an object initializer
+
+var myCar = {
+make: ‘Ford’,
+model: ‘Mustang’,
+year: 1969
+};
